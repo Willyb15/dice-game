@@ -1,0 +1,18 @@
+body {
+	font-size: 40px;
+	text-align: center;
+}
+
+#game-wrapper{
+	margin: auto;
+}
+
+.dragon img {
+	width: 50%;
+}
+
+#message{
+	color: red;
+}
+
+
