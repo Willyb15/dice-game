@@ -1,6 +1,8 @@
 body {
 	font-size: 40px;
 	text-align: center;
+	border: 5px solid black;
+	font-family: cursive;
 }
 
 #game-wrapper{
@@ -16,3 +18,17 @@ body {
 }
 
 
+input[type="button"] {
+	background-color: red;
+	font-family: cursive;
+	font-size:30px;
+	font-weight:bold;
+	padding:25px;
+	border: 2px solid black;
+	margin-bottom: 10px;
+}
+
+h3{
+	margin:10px 43%;
+	border:5px solid black;
+}
