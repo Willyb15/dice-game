@@ -1,7 +1,7 @@
 body {
 	font-size: 40px;
 	text-align: center;
-	border: 5px solid black;
+	border: 15px solid black;
 	font-family: cursive;
 }
 
@@ -30,5 +30,5 @@ input[type="button"] {
 
 h3{
 	margin:10px 43%;
-	border:5px solid black;
+	/*border:5px solid black;*/
 }
