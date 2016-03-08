@@ -1,34 +1,41 @@
-body {
-	font-size: 40px;
-	text-align: center;
-	border: 15px solid black;
-	font-family: cursive;
+#card-wrapper{
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+    border: solid 3px black;	
 }
 
-#game-wrapper{
-	margin: auto;
+#dragon-title{
+    text-align: center;
+    border: 5px solid brown;
+    box-shadow: 3px 3px;
+    background-color: red;
+    font-size: 30px;
+    color: white;	
 }
 
-.dragon img {
-	width: 50%;
+#dragon-name{
+    text-align: center;
+    border: 5px solid brown;
+    box-shadow: 3px 3px;
+    background-color: red;
+    font-size: 30px;
+    color: white;	
 }
 
-#message{
-	color: red;
+#dragon-img{
+    border: 1px solid black;	
+}
+img{
+	width: 100%;
 }
 
-
-input[type="button"] {
-	background-color: red;
-	font-family: cursive;
-	font-size:30px;
-	font-weight:bold;
-	padding:25px;
-	border: 2px solid black;
-	margin-bottom: 10px;
-}
-
-h3{
-	margin:10px 43%;
-	/*border:5px solid black;*/
+#dragon-power{
+    position: absolute;
+    bottom: -7px;
+    right: -7px;
+    border: 2px solid blue;
+    background: blue;
+    color: white;
+    font-size: 20px;	
 }
